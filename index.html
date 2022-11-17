@@ -55,30 +55,20 @@
     });
   </script>
   
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyA5NgEmp-j4wI9DRJM-dW9qSy_VswXGrM8",
-      authDomain: "pcte-events.firebaseapp.com",
-      databaseURL: "https://pcte-events-default-rtdb.asia-southeast1.firebasedatabase.app",
-      projectId: "pcte-events",
-      storageBucket: "pcte-events.appspot.com",
-      messagingSenderId: "739076365807",
-      appId: "1:739076365807:web:5742fb751f11e1822e2a1a",
-      measurementId: "G-69Y9VKJX53"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "domain.firebaseapp.com",
+    projectId: "your_project_id",
+    storageBucket: "your.appspot.com",
+    messagingSenderId: "1777...",
+    appId: "1:1674...appId"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
 </body>
 </html>
