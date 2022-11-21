@@ -105826,7 +105826,7 @@ if(s)return new A.pU(null)
 else return new A.Le(null)},
 $S:657}
 A.Le.prototype={
-az9(){var s="https://firebasestorage.googleapis.com/v0/b/pcte-events.appspot.com/o/apk%2Fpcte-events.apk?alt=media&token=b3ade8b5-4b65-4e15-bef9-26b0c5002ecc",r=A.aXX(s)
+az9(){var s="https://drive.google.com/uc?export=download&id=1Q-onpE7fPEobH8pjDZXzA8jcT9hxfM8X",r=A.aXX(s)
 r.download=s
 r.click()},
 F(a){var s,r,q,p,o,n,m=null,l=a.K(t.l).f.a,k=A.ag5(B.iB,new A.kp("assets/images/background-2.jpg",m,m),m),j=l.b*0.05,i=t.p,h=A.d4(A.a([new A.bK(m,j,m,m),B.a7q,new A.bK(m,j,m,m),B.a7A],i),B.u,B.U,B.y,m,B.P),g=A.a([],i),f=l.a*0.35
