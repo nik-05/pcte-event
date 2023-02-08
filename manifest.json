@@ -1,6 +1,6 @@
 {
-    "name": "pcte",
-    "short_name": "pcte",
+    "name": "pcte_events",
+    "short_name": "pcte_events",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
